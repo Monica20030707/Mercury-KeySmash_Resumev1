@@ -1,0 +1,31 @@
+company: "Verizon"
+title: "Sales Specialist"
+type: "full-time"
+location: "Covington, WA"
+start_date: "Nov 2025"
+end_date: "Apr 2026"
+company_description: "Verizon is a leading US telecommunications company providing wireless, internet, and TV services to millions of consumers and businesses."
+
+bullets:
+  - "Explained technical concepts — bandwidth, signal strength, coverage maps, Wi-Fi extender logic, and device compatibility — enabling customers to make informed purchasing decisions."
+  - "Supported store operations by running device diagnostics, validating hardware issues, managing inventory workflows, and contributing to sales targets with integrity."
+  - "Consistently surpassed monthly sales quotas, achieving 130% of targets through technical product expertise and a consultative solution-selling approach."
+
+tech_used:
+  - "Telecommunications Systems"
+  - "Device Diagnostics"
+  - "Inventory Management Systems"
+
+bullet_variants:
+  technical:
+    - "Translated complex telecom concepts — bandwidth allocation, RF signal propagation, DNS-based Wi-Fi extension, and OEM compatibility matrices — into actionable guidance for consumer hardware purchasing decisions."
+    - "Executed device-level diagnostics to isolate hardware faults, streamlining warranty and replacement workflows across a high-volume retail environment."
+    - "Applied data-driven consultative selling by matching customer usage profiles to optimal plan-device combinations, leveraging coverage map analysis and performance benchmarks."
+  impact:
+    - "Achieved 130% of monthly sales quota by coupling technical product knowledge with consultative solution-selling, consistently ranking among top-performing store specialists."
+    - "Reduced customer escalations by proactively explaining technical tradeoffs and compatibility requirements, improving post-sale satisfaction and lowering return rates."
+    - "Contributed measurably to store revenue targets while maintaining transparency and integrity throughout every customer interaction."
+  leadership:
+    - "Served as the go-to technical resource on the floor, owning customer education on complex telecom topics and ensuring colleagues could escalate hardware questions effectively."
+    - "Owned store operations tasks end-to-end — diagnostics, inventory validation, and sales reporting — without supervisory prompting, demonstrating reliability in a fast-paced retail environment."
+    - "Drove consistent quota attainment by independently developing a repeatable consultative sales framework, shared informally with peers to improve overall team performance."

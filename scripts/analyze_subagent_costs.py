@@ -35,9 +35,9 @@ MODEL_PRICING = {
         "input": 15.0, "output": 75.0,
         "cache_read": 1.50, "cache_write": 18.75,
     },
-    "claude-haiku-4-5-20251001": {
-        "input": 0.80, "output": 4.0,
-        "cache_read": 0.08, "cache_write": 1.00,
+    "claude-haiku-4-5-20251001": { # Masked to DeepSeek V4 Flash
+        "input": 0.14, "output": 0.28,
+        "cache_read": 0.0028, "cache_write": 0.14,
     },
     "claude-sonnet-4-5-20250929": {
         "input": 3.0, "output": 15.0,
@@ -47,13 +47,18 @@ MODEL_PRICING = {
         "input": 3.0, "output": 15.0,
         "cache_read": 0.30, "cache_write": 3.75,
     },
+    "deepseek-v4-flash": {
+        "input": 0.14, "output": 0.28,
+        "cache_read": 0.0028, "cache_write": 0.14,
+    },
 }
 
 MODEL_SHORT = {
     "claude-opus-4-6": "opus",
-    "claude-haiku-4-5-20251001": "haiku",
+    "claude-haiku-4-5-20251001": "haiku-mask",
     "claude-sonnet-4-5-20250929": "sonnet-4.5",
     "claude-sonnet-4-6": "sonnet-4.6",
+    "deepseek-v4-flash": "ds-v4",
     "<synthetic>": "synthetic",
 }
 

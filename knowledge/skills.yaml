@@ -1,63 +1,122 @@
-# Skills Knowledge Base — CUSTOMIZE THIS
+# Skills Knowledge Base
 # Proficiency levels: expert, advanced, intermediate
 # The build agent uses this to curate skills sections per job posting
 
 languages:
   - name: TypeScript
     proficiency: expert
-    notes: >-
-      Describe where and how you've used this language.
-
+  - name: JavaScript
+    proficiency: expert
   - name: Python
     proficiency: advanced
-    notes: >-
-      Describe where and how you've used this language.
-
-  # Add more languages...
+  - name: Java
+    proficiency: advanced
+  - name: Go
+    proficiency: advanced
+  - name: Kotlin
+    proficiency: intermediate
+  - name: C++
+    proficiency: intermediate
+  - name: MySQL
+    proficiency: advanced
+  - name: PHP
+    proficiency: intermediate
 
 frameworks_and_libraries:
   frontend:
     - name: React
       proficiency: expert
-      notes: >-
-        Describe your experience with this framework.
-    # Add more...
-
-  backend:
-    - name: Express
+    - name: React Native
       proficiency: advanced
-      notes: >-
-        Describe your experience.
-    # Add more...
-
-  # Add more categories: orm_and_database, ai_and_ml, testing, etc.
+    - name: Next.js
+      proficiency: advanced
+    - name: Redux Toolkit
+      proficiency: advanced
+    - name: Redux Thunk
+      proficiency: advanced
+    - name: Tailwind CSS
+      proficiency: advanced
+    - name: Flutter
+      proficiency: intermediate
+  backend:
+    - name: Express.js
+      proficiency: advanced
+    - name: Node.js
+      proficiency: advanced
+    - name: RESTful APIs
+      proficiency: expert
+    - name: GraphQL
+      proficiency: advanced
+  ai_and_ml:
+    - name: TensorFlow.js
+      proficiency: intermediate
+  testing:
+    - name: Jest
+      proficiency: advanced
+    - name: JUnit
+      proficiency: advanced
 
 tools_and_platforms:
   cloud:
+    - name: AWS Rekognition
+      proficiency: advanced
+    - name: AWS S3
+      proficiency: advanced
+    - name: AWS SQS
+      proficiency: advanced
+    - name: AWS EventBridge
+      proficiency: advanced
+    - name: AWS SES
+      proficiency: advanced
+    - name: AWS Amplify
+      proficiency: advanced
     - name: AWS Lambda
       proficiency: advanced
-      notes: >-
-        Describe your experience.
-    # Add more...
-
   databases:
-    - name: PostgreSQL
+    - name: MySQL
       proficiency: advanced
-      notes: >-
-        Describe your experience.
-    # Add more...
-
-  # Add more categories: devops, platforms, other_tools, etc.
+    - name: SQL
+      proficiency: advanced
+  devops:
+    - name: Docker
+      proficiency: advanced
+    - name: CI/CD Pipelines
+      proficiency: advanced
+    - name: GitHub Actions
+      proficiency: intermediate
+    - name: Kubernetes
+      proficiency: intermediate
+    - name: ESLint
+      proficiency: advanced
+  other_tools:
+    - name: Git
+      proficiency: expert
+    - name: Jira
+      proficiency: intermediate
+    - name: Figma
+      proficiency: intermediate
+    - name: MySQL Workbench
+      proficiency: advanced
+    - name: Perspective (JPMorgan open-source)
+      proficiency: intermediate
 
 concepts:
   architecture:
-    - "Microservices Architecture"
+    - "Full-Stack Development"
     - "Serverless Architecture"
-    # Add more...
-
+    - "Component-Driven Architecture"
+    - "RESTful API Design"
+    - "CI/CD Pipeline Design"
   design_patterns:
+    - "SOLID Principles"
+    - "Clean Code"
+    - "Visitor Pattern"
     - "Repository Pattern"
-    - "Dependency Injection"
-    # Add more...
-
-  # Add more categories: principles, methodologies, data_and_ai, etc.
+  methodologies:
+    - "Agile / Scrum"
+    - "Scrum Master"
+    - "Test-Driven Development"
+  data_and_performance:
+    - "Real-time Data Processing"
+    - "Client-side Rendering Optimization"
+    - "Automated Testing"

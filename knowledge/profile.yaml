@@ -1,44 +1,47 @@
-# Candidate Profile — CUSTOMIZE THIS
+# Candidate Profile
 # Used by job application agents for resume tailoring and form filling
 
 personal:
-  full_name: "Your Full Name"
-  legal_name: "Your Legal Name"
-  preferred_name: "Your Preferred Name"
-  pronouns: "they/them"
+  full_name: "Thuy Nguyen"
+  legal_name: "Thuy Nguyen"
+  preferred_name: "Monica Nguyen"
+  pronouns: "she/her"
 
 contact:
-  email: "your.email@example.com"
-  phone: "+1 555-000-0000"
-  website: "https://yourwebsite.dev/"
-  github: "https://github.com/your-username"
-  linkedin: "https://linkedin.com/in/your-profile"
+  email: "thuybohr@gmail.com"
+  phone: "+1 206-423-9827"
+  website: "https://monica20030707.github.io/"
+  github: "https://github.com/Monica20030707"
+  linkedin: "https://linkedin.com/in/thuy-nguyen-46505121b"
 
 summary:
   default: >-
-    Your default professional summary (2-3 sentences). Mention your
-    specializations, key technologies, and what kind of roles you target.
+    Full-stack software engineer with hands-on experience building and deploying
+    production React applications, serverless AWS backends, and real-time data
+    pipelines. Passionate about clean architecture, performance optimization, and
+    delivering measurable results through technical depth and collaborative problem-solving.
   short: >-
-    A shorter version (1-2 sentences) for space-constrained contexts.
-  # Add more variants as needed: ai_focused, systems_focused, etc.
+    Full-stack engineer skilled in React, TypeScript, Node.js, and AWS — with a
+    record of shipping production-grade features and optimizing performance at scale.
 
 education:
-  - institution: "Your University"
+  - institution: "Bellevue College"
     degree: "Bachelor of Science"
     field: "Computer Science"
-    start_date: "2020-09"
-    end_date: "2024-06"
-    gpa: 3.5
+    start_date: "2021-09"
+    end_date: "2025-06"
+    gpa: 3.6
     activities:
-      - "Relevant club or honor society"
-    location: "City, State"
+      - "Amazon Scholarship recipient"
+      - "Social Media Manager, Computer Science Club"
+    location: "Bellevue, WA"
 
 work_authorization:
-  status: "US Citizen"  # or "Green Card", "H-1B", "F-1 OPT", etc.
+  status: "US Citizen"
   authorized_to_work_in_us: true
   sponsorship_required: false
   note: >-
-    Any relevant notes about your work authorization status.
+    US Citizen. No sponsorship required.
 
 relocate: "Yes"
 start: "Immediately"

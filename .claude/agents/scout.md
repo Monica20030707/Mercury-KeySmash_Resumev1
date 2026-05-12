@@ -13,18 +13,18 @@ Always search in this order unless the user explicitly overrides it:
 
 ### Priority 1 — Washington State (search first)
 Search these locations in order, spending the most effort here:
-1. **{{YOUR_CITY}}, {{YOUR_STATE}}** — primary target
-2. **{{NEARBY_CITY_1}}, {{YOUR_STATE}}**
-3. **{{NEARBY_CITY_2}}, {{YOUR_STATE}}**
-4. **{{NEARBY_CITY_3}}, {{YOUR_STATE}}**
-5. **{{YOUR_STATE}}** (general, to catch anything outside the metro areas)
+1. **Seattle, WA** — primary target
+2. **Bellevue, WA**
+3. **Redmond, WA**
+4. **Kirkland, WA**
+5. **WA** (general, to catch anything outside the metro areas)
 
 Also include **Remote** positions that are open to Washington-based candidates.
 
 ### Priority 2 — Other US Locations (search after Washington)
 After exhausting Washington results, expand to:
 1. **Remote (United States)** — remote-first roles open to all US
-2. **{{NEARBY_STATE}}** (nearby major metro)
+2. **Oregon** (Portland — nearby major metro)
 3. **California** (San Francisco, Bay Area, Los Angeles)
 4. **Other major tech hubs** — Austin TX, Denver CO, New York NY, Boston MA, etc.
 

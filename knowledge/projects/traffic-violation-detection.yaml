@@ -1,0 +1,49 @@
+name: "Traffic Violation Detection System"
+dates: "2024"
+link: "https://github.com/Monica20030707/AWS_rekonigition-N-read-database"
+type: "personal"
+summary: >-
+  A serverless AWS pipeline that automatically identifies traffic violators by
+  processing license plate images from S3 with Rekognition, routing events
+  through SQS and EventBridge, and delivering automated email notices via SES.
+
+tech_stack:
+  languages: ["JavaScript"]
+  frameworks: []
+  infrastructure: ["AWS Rekognition", "AWS S3", "AWS SQS", "AWS EventBridge", "AWS SES", "Regex"]
+
+contributions:
+  - "Processed license plate images from S3 using AWS Rekognition to automate identification of traffic offenders."
+  - "Engineered a Regex pattern to identify California plates and routed events through SQS and EventBridge to trigger SES-based email notifications."
+
+bullets:
+  - "Processed license plate images from S3 using AWS Rekognition, automating the identification of traffic offenders."
+  - "Engineered Regex patterns to identify California license plates, routing events through SQS and EventBridge to trigger SES-based automated email notices to violators."
+
+bullet_variants:
+  technical:
+    - "Built a fully serverless event-driven pipeline: S3-triggered Lambda invokes Rekognition for OCR on license plate images, Regex filters California plate patterns, and results flow through SQS → EventBridge → SES for automated notification delivery."
+    - "Implemented Regex-based license plate parsing to extract and validate California plate formats from Rekognition text output, enabling accurate routing of violation events downstream."
+    - "Designed an asynchronous event chain using SQS for decoupled message queuing and EventBridge for rule-based routing, ensuring reliable notification delivery without tight service coupling."
+  impact:
+    - "Automated the full traffic violation identification and notification workflow — from raw plate image to offender email — eliminating manual review steps and enabling scalable processing of large image volumes."
+    - "Reduced time-to-notification for traffic violations by replacing manual image review with a fully automated AWS pipeline, achieving near-real-time offender identification."
+    - "Demonstrated cloud-native architecture skills by building a zero-server violation detection system that scales automatically with S3 upload volume at minimal per-invocation cost."
+  leadership:
+    - "Independently designed and implemented the entire AWS event pipeline — S3, Rekognition, Lambda, SQS, EventBridge, and SES — selecting each service for its appropriate role in the architecture."
+    - "Owned all technical decisions for the project, from OCR approach to notification delivery mechanism, delivering a fully integrated serverless system without external guidance."
+    - "Sole engineer on a multi-service cloud integration project, demonstrating the ability to coordinate across AWS service boundaries and deliver an end-to-end working system."
+
+keywords:
+  - "AWS"
+  - "Rekognition"
+  - "S3"
+  - "SQS"
+  - "EventBridge"
+  - "SES"
+  - "Serverless"
+  - "Event-driven architecture"
+  - "JavaScript"
+  - "cloud engineer"
+  - "backend engineer"
+  - "AWS developer"

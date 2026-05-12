@@ -1,0 +1,39 @@
+company: "METY Technology"
+title: "Full Stack Developer Intern"
+type: "internship"
+location: "Remote"
+start_date: "Sep 2024"
+end_date: "Jun 2025"
+company_description: "METY Technology is a technology company building interactive and AI-powered web applications."
+
+bullets:
+  - "Engineered a real-time, interaction-driven application using React and TensorFlow.js (MoveNet) that processes live camera input and renders responsive UI feedback."
+  - "Developed secure, scalable RESTful APIs with Express.js and Node.js to manage data flow and backend communication; built the frontend with Tailwind CSS and Redux Toolkit for state management."
+  - "Built and maintained a CI/CD pipeline using AWS Amplify, with automated testing via Jest and code quality enforcement through ESLint."
+
+tech_used:
+  - "React"
+  - "TensorFlow.js"
+  - "MoveNet"
+  - "Express.js"
+  - "Node.js"
+  - "Tailwind CSS"
+  - "Redux Toolkit"
+  - "AWS Amplify"
+  - "Jest"
+  - "ESLint"
+  - "RESTful APIs"
+
+bullet_variants:
+  technical:
+    - "Built a real-time pose-detection UI using React and TensorFlow.js MoveNet, processing live MediaStream input at inference speed with low-latency DOM updates driven by keypoint coordinates."
+    - "Designed and implemented RESTful APIs on Express.js/Node.js with input validation and structured error handling, consumed by a React frontend styled with Tailwind CSS and managed with Redux Toolkit."
+    - "Configured an AWS Amplify CI/CD pipeline with environment-specific deployments, Jest unit test gating, and ESLint enforcement to ensure code quality on every merge."
+  impact:
+    - "Delivered a production-ready real-time interaction application that processes live camera input and renders responsive feedback, enabling a novel user experience with no perceptible lag."
+    - "Improved backend reliability and security by building structured RESTful APIs with consistent validation, reducing integration errors between frontend and server data flows."
+    - "Accelerated team delivery velocity by establishing an AWS Amplify CI/CD pipeline with automated Jest tests and ESLint checks, catching regressions before they reached production."
+  leadership:
+    - "Owned full-stack delivery of a real-time AI-powered feature — from TensorFlow.js model integration to React UI rendering — as the primary engineer on the component."
+    - "Designed the backend API contract and corresponding frontend state architecture (Redux Toolkit) independently, coordinating with stakeholders to align on data shape and error handling."
+    - "Initiated and configured the team's CI/CD pipeline on AWS Amplify, introducing automated testing and linting standards that elevated overall codebase quality."

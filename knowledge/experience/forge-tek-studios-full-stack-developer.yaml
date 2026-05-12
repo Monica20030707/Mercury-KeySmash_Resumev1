@@ -1,0 +1,39 @@
+company: "Forge Tek Studios"
+title: "Associate Full Stack Developer"
+type: "full-time"
+location: "Remote"
+start_date: "Aug 2025"
+end_date: "Present"
+company_description: "Forge Tek Studios is a game and software development studio building web platforms and digital marketplace experiences for creators and gamers."
+
+bullets:
+  - "Built and deployed a production-ready, component-driven React application integrating external APIs (Steam, Fab Marketplace) to dynamically render real-time content for live customers."
+  - "Optimized client-side rendering and data synchronization, reducing load and data ingestion overhead by 80% through targeted performance improvements to performance-sensitive UI updates."
+  - "Managed the full production release lifecycle — build pipelines, environment configuration, DNS, and hosting — delivering a fully operational site used by real customers."
+  - "Designed and deployed a serverless backend architecture to minimize infrastructure costs and maintain elasticity under high-traffic conditions."
+
+tech_used:
+  - "React"
+  - "TypeScript"
+  - "JavaScript"
+  - "Steam API"
+  - "Serverless (AWS Lambda or equivalent)"
+  - "DNS / Hosting"
+  - "CI/CD Pipelines"
+
+bullet_variants:
+  technical:
+    - "Architected a component-driven React application with dynamic API integration (Steam, Fab Marketplace), implementing efficient data-fetching strategies that cut client-side load overhead by 80%."
+    - "Designed a serverless backend to decouple compute from infrastructure costs, enabling elastic scaling under variable visitor traffic without dedicated server overhead."
+    - "Owned the full release pipeline — Webpack/Vite build configs, multi-environment variables, DNS record management, and CDN hosting — shipping a zero-downtime production deployment."
+    - "Engineered targeted optimizations to performance-sensitive UI rendering paths, reducing unnecessary re-renders and synchronization latency across real-time content feeds."
+  impact:
+    - "Reduced client-side load and data ingestion overhead by 80%, directly improving page performance and user engagement for live production customers."
+    - "Delivered a fully operational customer-facing site from ground up — integrating two third-party marketplace APIs — on schedule and with zero reported critical defects at launch."
+    - "Minimized infrastructure spend by adopting a serverless backend model, keeping operating costs near zero while accommodating traffic spikes without manual scaling."
+    - "Owned the entire production release process solo, eliminating release bottlenecks and enabling rapid iteration cycles post-launch."
+  leadership:
+    - "Sole engineer responsible for end-to-end delivery — architecture, API integration, performance tuning, release pipeline, DNS, and hosting — for a production application serving real customers."
+    - "Led all infrastructure decisions, selecting a serverless architecture that balanced cost efficiency with scalability for a growth-stage product."
+    - "Owned the full production lifecycle from initial component design through live deployment, making independent technical decisions at each stage without escalation."
+    - "Drove a measurable 80% performance improvement by independently identifying bottlenecks, designing solutions, and validating results in a production environment."

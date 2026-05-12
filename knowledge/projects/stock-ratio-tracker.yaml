@@ -1,0 +1,48 @@
+name: "Stock Ratio Tracker"
+dates: "2024 - 2025"
+link: "https://github.com/Monica20030707/Trading-Dashboard_UI"
+type: "personal"
+summary: >-
+  A live trading dashboard that connects a Python backend calculating financial
+  ratios to a real-time React frontend, using JPMorgan Chase's open-source
+  Perspective library to render a dynamic, low-latency data feed for traders.
+
+tech_stack:
+  languages: ["Python", "TypeScript", "JavaScript"]
+  frameworks: ["React"]
+  infrastructure: ["Perspective (JPMorgan open-source)"]
+
+contributions:
+  - "Designed the full data-flow pipeline from Python backend ratio calculations to a live React dashboard with stable, low-latency updates."
+  - "Integrated JPMorgan Chase's Perspective library to render a live streaming graph with a visually clear and performant UI for traders."
+  - "Implemented automated unit tests to validate correctness and reliability of ratio calculations."
+
+bullets:
+  - "Architected the data-flow pipeline connecting Python backend calculations to a live React dashboard, ensuring stable, low-latency ratio updates."
+  - "Integrated JPMorgan Chase's open-source Perspective library to generate a live streaming graph that displays a real-time data feed in a clear, visually appealing format for traders."
+  - "Implemented automated unit tests to ensure correctness and reliability of ratio computations."
+
+bullet_variants:
+  technical:
+    - "Designed a streaming data pipeline in Python that computes financial ratios and pushes updates to a React frontend, using JPMorgan's Perspective library for high-performance, real-time table rendering."
+    - "Integrated Perspective's virtual DOM diffing and WebAssembly-backed computation to render live data feed updates with minimal latency, avoiding full re-renders on each tick."
+    - "Wrote automated unit tests in Python to cover edge cases in ratio calculation logic, ensuring numerical correctness under various market data inputs."
+  impact:
+    - "Delivered a fully functional live trading dashboard that enables traders to monitor financial ratios in real time, replacing a manual, batch-refresh workflow with continuous streaming updates."
+    - "Achieved stable, low-latency UI updates by architecting an efficient data pipeline, providing traders with a responsive and accurate decision-support tool."
+    - "Improved code reliability through automated unit testing, catching calculation errors before they could surface in the live dashboard."
+  leadership:
+    - "Sole developer responsible for end-to-end design and delivery — from Python backend pipeline to React dashboard integration — without external guidance."
+    - "Independently selected and integrated JPMorgan Chase's Perspective library, evaluating its performance characteristics and adapting it to the project's real-time data requirements."
+    - "Established a testing discipline from the start by authoring automated unit tests alongside production code, ensuring the project maintained correctness as features evolved."
+
+keywords:
+  - "Python"
+  - "React"
+  - "TypeScript"
+  - "Perspective"
+  - "Financial data"
+  - "Real-time dashboard"
+  - "frontend engineer"
+  - "full-stack developer"
+  - "data visualization engineer"

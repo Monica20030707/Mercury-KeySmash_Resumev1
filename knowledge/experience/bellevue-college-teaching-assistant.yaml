@@ -1,0 +1,34 @@
+company: "Bellevue College"
+title: "Teaching Assistant"
+type: "part-time"
+location: "Bellevue, WA"
+start_date: "Apr 2024"
+end_date: "Dec 2024"
+company_description: "Bellevue College is a public community college in Washington State offering associate, bachelor's, and professional programs in technology and the sciences."
+
+bullets:
+  - "Guided 40+ students in Java and SQL coursework, providing support with class materials both during and after class sessions."
+  - "Educated students in relational database design and MySQL Workbench operations, building foundational SQL skills."
+  - "Elevated student proficiency in JUnit testing and Javadoc documentation, improving overall assignment quality by 20%."
+
+tech_used:
+  - "Java"
+  - "SQL"
+  - "MySQL"
+  - "MySQL Workbench"
+  - "JUnit"
+  - "Javadoc"
+
+bullet_variants:
+  technical:
+    - "Delivered instruction on relational database design principles and MySQL Workbench workflows to 40+ students, reinforcing schema normalization, query optimization, and constraint modeling."
+    - "Taught JUnit test case design and Javadoc documentation standards, enabling students to adopt industry-standard Java development practices."
+    - "Supported Java coursework covering OOP, data structures, and algorithm concepts — fielding complex technical questions during and outside scheduled lab hours."
+  impact:
+    - "Improved student assignment quality by 20% through targeted instruction on JUnit testing and Javadoc documentation, measurably raising the standard of code submissions."
+    - "Supported 40+ students in mastering Java and SQL fundamentals, contributing to higher class retention and improved assessment scores across the cohort."
+    - "Reduced student confusion around relational database concepts by delivering clear, structured explanations of MySQL Workbench operations and schema design."
+  leadership:
+    - "Independently managed academic support for a cohort of 40+ students across Java and SQL courses, coordinating office hours, question queues, and grading feedback."
+    - "Took initiative to introduce JUnit and Javadoc best practices beyond the core syllabus, driving a 20% improvement in student code quality."
+    - "Owned student success outcomes for assigned lab sections, proactively identifying at-risk students and providing targeted follow-up support."
