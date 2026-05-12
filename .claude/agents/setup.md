@@ -124,13 +124,13 @@ education:
     location: "<City, State>"
 
 work_authorization:
-  status: "<extracted or TODO: US Citizen | Green Card | H-1B | F-1 OPT>"
-  authorized_to_work_in_us: <true/false or TODO>
-  sponsorship_required: <true/false or TODO>
+  status: "<extracted or TODO: US Citizen | Green Card>"
+  authorized_to_work_in_us: <true>
+  sponsorship_required: <false>
   note: "<extracted or TODO: describe your work authorization>"
 
-relocate: "<Yes/No/Open to it — from prompt or TODO>"
-start: "<from prompt or TODO: 2 weeks notice | Immediately>"
+relocate: "<Yes>"
+start: "<from prompt or Immediately>"
 ```
 
 Replace any field that couldn't be extracted with a `TODO:` comment explaining what to add.

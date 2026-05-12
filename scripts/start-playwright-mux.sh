@@ -16,10 +16,12 @@ PROFILE_DIR="${CHROME_AUTOMATION_PROFILE:-$HOME/.config/chrome-automation}"
 # Read POSTHOG_DISTINCT_ID from .env so browser sessions use the same identity
 # as server-side pipeline events — enabling PostHog to link session replays to
 # scout_complete / pipeline_complete events.
+PH_API_KEY=""
 PH_DISTINCT_ID=""
 PH_USER_NAME=""
 ENV_FILE="$PROJECT_ROOT/.env"
 if [ -f "$ENV_FILE" ]; then
+  PH_API_KEY=$(grep -E "^POSTHOG_API_KEY=" "$ENV_FILE" 2>/dev/null | cut -d'=' -f2 | tr -d '[:space:]' || true)
   PH_DISTINCT_ID=$(grep -E "^POSTHOG_DISTINCT_ID=" "$ENV_FILE" 2>/dev/null | cut -d'=' -f2 | tr -d '[:space:]' || true)
   PH_USER_NAME=$(grep -E "^POSTHOG_USER_NAME=" "$ENV_FILE" 2>/dev/null | cut -d'=' -f2 | tr -d '[:space:]' || true)
 fi
@@ -55,8 +57,9 @@ COMBINED_SCRIPT="/tmp/posthog-mux-combined.js"
     cat "$RECORDER_SCRIPT"
     echo ";"
   fi
-  # Inject distinct ID as a global so posthog-init.js uses the same identity
-  # as server-side pipeline events (enables linking session replays to events).
+  # Inject distinct ID and API key as globals so posthog-init.js uses the same
+  # identity and project as server-side pipeline events.
+  echo "window.__PH_API_KEY = '${PH_API_KEY}';"
   echo "window.__PH_DISTINCT_ID = '${PH_DISTINCT_ID}';"
   echo "window.__PH_USER_NAME = '${PH_USER_NAME}';"
   cat "$SCRIPT_DIR/posthog-init.js"

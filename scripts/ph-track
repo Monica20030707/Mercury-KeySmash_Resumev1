@@ -72,7 +72,10 @@ inject_pipeline_session_id(properties)
 # ---------------------------------------------------------------------------
 # Send event
 # ---------------------------------------------------------------------------
-api_key = os.environ.get("POSTHOG_API_KEY", "phc_wVt5tCcjb58xQNqMTzdJ7E3i5j8XEWLdSvvQu2mjX5f")
+api_key = os.environ.get("POSTHOG_API_KEY")
+if not api_key:
+    print("Warning: POSTHOG_API_KEY not set in .env. Event not sent.", file=sys.stderr)
+    sys.exit(0)
 
 try:
     from posthog import Posthog

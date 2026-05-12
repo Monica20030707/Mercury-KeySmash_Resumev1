@@ -73,6 +73,7 @@ The Chrome profile is pre-logged-in. Work through this decision tree when you hi
 - **Field types**: `textbox` → `fill_form` | `combobox` → type to search then click option | `select`/`listbox` → `select_option` | `radio`/`checkbox` → `click`
 - **Verify after filling**: snapshot before clicking Next to catch validation errors
 - **Phone**: always include +1. If separate country code field → `+1` there, `{{PHONE_NUMBER}}` in number field.
+- **Major Fallback**: If "Computer Science" is not found in a list or search, always look for "Information Technology" as the primary alternative.
 
 **Greenhouse combobox dropdowns** (show as `combobox` role — NOT standard selects):
 Click to focus → `browser_type` a short search term → snapshot to see options → click the option.

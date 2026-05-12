@@ -109,7 +109,7 @@ The questions shown on Upwork's job posting page often have DIFFERENT WORDING th
 
 Read the knowledge base and select:
 
-**Projects (pick 1-2, maximum 2):**
+**Projects (pick 2):**
 - Match `keywords` and `tech_stack` against `skills_required` and `description`
 - Prioritize projects demonstrating the EXACT technology stack requested
 - Prefer projects with quantifiable outcomes (50x improvement, 98.6% pass rate, <50ms latency, etc.)
