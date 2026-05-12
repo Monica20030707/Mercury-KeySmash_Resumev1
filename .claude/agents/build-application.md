@@ -50,7 +50,11 @@ templates/
 
 Read the knowledge base files and select content based on job fit:
 
-**Project Selection (pick 2-3):**
+**Selection Constraints (Strict):**
+- **Projects:** Select exactly **2** projects.
+- **Experience:** Select exactly **3** experiences.
+
+**Selection Logic:**
 - Match project `keywords` and `tech_stack` against job requirements
 - Prioritize projects that demonstrate skills the job explicitly asks for
 - Prefer `type: client` or `type: personal` (production) projects over `type: academic` unless the job values research
@@ -61,9 +65,9 @@ Read the knowledge base files and select content based on job fit:
 - If job emphasizes impact/metrics/results → use `bullet_variants.impact`
 - If job emphasizes leadership/ownership/collaboration → use `bullet_variants.leadership`
 - Default to `bullets` (balanced) if unclear
-- Pick 3-4 bullets per project, 2-3 per experience entry
+- Pick 2-3 bullets per project, 3-4 per experience entry
 
-**Experience Selection (pick 1-2):**
+**Experience Selection:**
 - Always include the most recent or most relevant `type: full-time` experience
 - Include tutoring/teaching experience if the role values mentoring or communication
 - Keep it concise — experience section should complement, not repeat, projects
@@ -103,10 +107,9 @@ Read the knowledge base files and select content based on job fit:
 4. Fill `<<SKILLS>>` using this format:
 
 ```latex
-\heading{Languages:}{TypeScript, Go, Python, Rust, SQL, HTML/CSS}
-\heading{Frameworks:}{React, Redux Toolkit, Next.js, Gin, FastAPI, Tailwind CSS}
-\heading{Cloud \& DevOps:}{AWS (Lambda, DynamoDB, CDK, SAM, Cognito), Docker, GitHub Actions}
-\heading{AI/ML:}{LangChain, Gemini API, Vercel AI SDK, pgvector, Pinecone}
+\textbf{Languages:} Python, Go, TypeScript, Java, Kotlin, C++, Flutter, Next.js, JavaScript, MySQL, Tailwind CSS\\
+\textbf{Skills:} RESTful APIs, GraphQL, Full-stack, SOLID, Clean Code, Scrum Master, Collaboration\\
+\textbf{Tools:} Gen AI/ML, Kubernetes, React, React Native, Redux Toolkit, Redux Thunk, Docker, Jira, AWS Cloud Services\\
 ```
 
 5. Write the filled template to `data/jobs/<slug>/resume.tex`

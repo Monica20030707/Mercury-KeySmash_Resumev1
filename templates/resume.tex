@@ -17,113 +17,32 @@
 %   <<EDUCATION>>        - Your education entries
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[11pt]{article}
+\usepackage[letterpaper,
+top=0.5in,
+bottom=0.5in,
+left=0.5in,
+right=0.5in]{geometry}
 
-%%%%%%%%%%%%%%%%%%%%%%%
-%% BEGIN_FILE: mteck.sty
-
-% Dependencies
-% NOTE: Some packages (lastpage, hyperref) require second build!
-\usepackage[left=0.25in, right=0.25in, top=0.25in, bottom=0.25in]{geometry}
-\usepackage{titlesec}
+\usepackage{XCharter}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-\usepackage{bookmark}
-\usepackage{lastpage}
-
-% Serif
-\usepackage{charter}
-
-% Colors
-\usepackage{xcolor}
-\definecolor{accentTitle}{HTML}{3c6e71}
-\definecolor{accentText}{HTML}{3c6e71}
-\definecolor{accentLine}{HTML}{284b63}
-
-% Misc. Options
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\urlstyle{same}
-
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
-\setlength{\tabcolsep}{0pt}
-\setlength{\footskip}{3.7pt}
-\raggedbottom
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref}
+\usepackage{titlesec}
 \raggedright
+\pagestyle{empty}
 
-% ATS Readability
-% NOTE: \input{glyphtounicode} and \pdfgentounicode removed — incompatible with tectonic
+% ensure PDF output will be all-Unicode and machine-readable
+\input{glyphtounicode}
+\pdfgentounicode=1
 
-%-----------------%
-% Custom Commands %
-%-----------------%
+% format section headings: bolding, size, white space above and below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
 
-% Centered title along with subtitle between HR
-\newcommand{\documentTitle}[2]{
-  \begin{center}
-    {\Huge\color{accentTitle} #1}
-    \vspace{5pt}
-    {\color{accentLine} \hrule}
-    \vspace{2pt}
-    \footnotesize{#2}
-    \vspace{2pt}
-    {\color{accentLine} \hrule}
-  \end{center}
-}
-
-% Create a footer with correct padding
-\newcommand{\documentFooter}[1]{
-  \setlength{\footskip}{10.25pt}
-  \fancyfoot[C]{\footnotesize #1}
-}
-
-% Simple wrapper to set up page numbering
-\newcommand{\numberedPages}{
-  \documentFooter{\thepage/\pageref{LastPage}}
-}
-
-% Section heading with horizontal rule
-\titleformat{\section}{
-  \vspace{-7pt}
-  \color{accentText}
-  \raggedright\large\bfseries
-}{}{0em}{}[\color{accentLine}\titlerule]
-
-% Indented line with arguments left/right aligned in document
-\newcommand{\heading}[2]{
-  \hspace{10pt}#1\hfill#2\\
-}
-
-% Adds \textbf + slight size bump to \heading for visual distinction
-\newcommand{\headingBf}[2]{
-  \heading{{\fontsize{11}{13}\selectfont\textbf{#1}}}{{\fontsize{11}{13}\selectfont\textbf{#2}}}
-}
-
-% Adds \textit to \heading and some bottom space
-\newcommand{\headingIt}[2]{
-  \heading{\textit{#1}}{\textit{#2}}
-}
-
-% Template for itemized lists
-\newenvironment{resume_list}{
-  \vspace{-7pt}
-  \begin{itemize}[itemsep=0.5pt, parsep=0.5pt, leftmargin=30pt]
-}{
-  \end{itemize}
-}
-
-% Bullets used in itemized lists
-\renewcommand\labelitemi{--}
-
-%% END_FILE: mteck.sty
-%%%%%%%%%%%%%%%%%%%%%%
+% format bullet points: size, white space above and below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, topsep=6pt}
 
 
 \begin{document}
@@ -131,38 +50,46 @@
 % ---------%
 %  Heading %
 % ---------%
-\documentTitle{Thuy Nguyen}{
-    \href{https://monica20030707.github.io/}{\raisebox{-0.15\height} \faGlobe\ monica20030707.github.io} ~ | ~
-    \href{https://github.com/Monica20030707}{\raisebox{-0.15\height} \faGithub\ github.com/Monica20030707} ~ | ~
-    \href{https://linkedin.com/in/thuy-nguyen-46505121b}{\raisebox{-0.15\height} \faLinkedin\ linkedin.com/in/thuy-nguyen-46505121b} ~ | ~
-    \href{mailto:thuybohr@gmail.com}{\raisebox{-0.15\height} \faEnvelope\ thuybohr@gmail.com}
-}
+
+% name
+\centerline{\Huge Thuy Nguyen}
+
+\vspace{5pt}
+
+% contact information
+\centerline{\href{mailto:thuybohr@gmail.com}{thuybohr@gmail.com} | 206-423-9827 |
+\href{https://www.linkedin.com/in/thuy-nguyen-46505121b/}{linkedin.com/in/thuy-nguyen-46505121b}}
+
+\centerline{\href{https://github.com/Monica20030707}{github.com/Monica20030707} | 
+\href{https://monica20030707.github.io/}{monica20030707.github.io/}} 
+
+\vspace{-9pt}
 
 % ---------%
 %  Projects %
 % ---------%
-\section{Projects}
+\section*{Projects}
 
 <<PROJECTS>>
 
 % ------------%
 %  Experience %
 % ------------%
-\section{Experience}
+\section*{Experience}
 
 <<EXPERIENCE>>
 
 % -----------%
 %  Education %
 % -----------%
-\section{Education}
+\section*{Education}
 
 <<EDUCATION>>
 
 % --------%
 %  Skills %
 % --------%
-\section{Skills}
+\section*{Skills}
 
 <<SKILLS>>
 

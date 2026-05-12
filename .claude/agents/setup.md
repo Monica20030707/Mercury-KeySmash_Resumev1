@@ -260,12 +260,12 @@ For keywords, include the technologies used and 2-3 role-type keywords that desc
 Replace these two placeholders (around line 134):
 
 ```latex
-\documentTitle{Full Name}{
-    \href{https://yoursite.dev/}{\raisebox{-0.15\height} \faGlobe\ yoursite.dev} ~ | ~
-    \href{https://github.com/username}{\raisebox{-0.15\height} \faGithub\ github.com/username} ~ | ~
-    \href{https://linkedin.com/in/profile}{\raisebox{-0.15\height} \faLinkedin\ linkedin.com/in/profile} ~ | ~
-    \href{mailto:email@example.com}{\raisebox{-0.15\height} \faEnvelope\ email@example.com}
-}
+\centerline{\Huge Full Name}
+
+\vspace{5pt}
+
+\centerline{\href{mailto:email@example.com}{\faEnvelope\ email@example.com} | Phone Number |
+\href{https://linkedin.com/in/profile}{\faLinkedin\ linkedin.com/in/profile}}
 ```
 
 Only include links that were actually extracted — omit any that are TODO. Use `\raisebox{-0.15\height}` before each icon for proper vertical alignment.
